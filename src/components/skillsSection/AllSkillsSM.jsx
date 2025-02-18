@@ -1,47 +1,52 @@
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
-import { SiTypescript } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { SiRedux } from "react-icons/si";
-import { SiNextdotjs } from "react-icons/si";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { FaBug, FaLinux } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import { SiMetasploit, SiBurpsuite, SiWireshark, SiOwasp, SiKubernetes, SiGnubash } from "react-icons/si";
+import { TbNetwork } from "react-icons/tb";
+import { MdTerminal } from "react-icons/md";
 
 const skills = [
+ {
+     skill: "Linux",
+     icon: FaLinux,
+   },
   {
-    skill: "HTML",
-    icon: FaHtml5,
-  },
-  {
-    skill: "CSS",
-    icon: FaCss3Alt,
-  },
-  {
-    skill: "JavaScript",
-    icon: IoLogoJavascript,
-  },
-  {
-    skill: "TypeScript",
-    icon: SiTypescript,
-  },
-  {
-    skill: "ReactJS",
-    icon: FaReact,
-  },
-  {
-    skill: "Redux",
-    icon: SiRedux,
-  },
-  {
-    skill: "NextJS",
-    icon: SiNextdotjs,
-  },
-  {
-    skill: "TailwindCSS",
-    icon: RiTailwindCssFill,
-  },
+      skill: "Metasploit",
+      icon: SiMetasploit,
+    },
+    {
+      skill: "Burpsuite",
+      icon: SiBurpsuite,
+    },
+    {
+      skill: "Wireshark",
+      icon: SiWireshark,
+    },
+    {
+      skill: "Owasp",
+      icon: SiOwasp,
+    },
+    {
+      skill: "Kubernetes",
+      icon: SiKubernetes,
+    },
+    {
+      skill: "Gnubash",
+      icon: SiGnubash,
+    },
+   {
+     skill: "Network",
+     icon: TbNetwork,
+   },
+   {
+     skill: "Terminal",
+     icon: MdTerminal,
+   },
+    {
+       skill: "VAPT",
+       icon: FaBug,
+     },
+     
 ];
 
 const AllSkillsSM = () => {
