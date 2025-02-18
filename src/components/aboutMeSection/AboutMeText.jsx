@@ -5,13 +5,15 @@ const AboutMeText = () => {
     <div className="flex flex-col md:items-start sm:items-center md:text-left sm:text-center">
       <h2 className="text-6xl text-cyan mb-10">About Me</h2>
       <p>
-        I’m Abdelrahman, a web developer instructor with a passion for teaching
-        and coding. I specialize in React and front-end development, helping
-        students build real-world projects and master modern web technologies. I
-        also run a YouTube channel, CodeNest, where I create tutorials and
-        courses to guide aspiring developers in their journey toward successful
-        careers in tech. Outside of coding, I enjoy continuous learning and
-        sharing knowledge to inspire others to achieve their goals.
+        I’m Jaydeep Chauhan is a dedicated IT Cybersecurity Analyst with a
+        Master’s in IT Cybersecurity from Ganpat University. He has over a year
+        of experience in cybersecurity, having worked as a Junior Cybersecurity
+        Analyst and Cybersecurity Consultant at Virtual Caim Private Limited in
+        Ahmedabad. His expertise includes vulnerability assessments, penetration
+        testing, email security, and insider threat prevention. He is skilled in
+        securing web and network environments using various security tools and
+        frameworks. Jaydeep is seeking to join a cybersecurity team focused on
+        securing complex systems.
       </p>
       <button className="border border-orange rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center">
         <Link

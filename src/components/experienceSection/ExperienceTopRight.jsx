@@ -3,15 +3,15 @@ const ExperienceTopRight = () => {
     <div className="xl:w-[25%] lg:w-[30%] border border-lightBrown p-4 rounded-xl">
       <p className="text-lg text-center text-lightGrey">
         I specialize in{" "}
+        <span className="font-bold text-white">Cybersecurity Analyst</span>,
+        with expertise in{" "}
         <span className="font-bold text-white">
-          React and modern JavaScript
+          penetration testing, vulnerability assessments, email security, and
+          insider threat prevention.
         </span>
-        , leveraging best practices to create scalable and maintainable
-        solutions. <br />
-        My experience spans working on diverse projects, from small business
-        websites to{" "}
-        <span className="font-bold text-white">complex front-end systems</span>,
-        always aiming for clean code and exceptional user experiences.
+        Skilled in securing{" "}
+        <span className="font-bold text-white">web, network, and cloud environments</span>,
+        using industry-standard tools and frameworks.
       </p>
     </div>
   );

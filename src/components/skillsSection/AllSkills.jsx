@@ -12,7 +12,7 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const skills = [
   {
-    skill: "HTML",
+    skill: "HTMdd",
     icon: FaHtml5,
   },
   {

@@ -5,34 +5,32 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
   {
-    job: "Front-End Developer",
-    company: "Alex Apps",
-    date: "2022 - Present",
+    job: "Cybersecurity Intern",
+    company: "Virtual Caim – Ahmedabad",
+    date: "December 2021 – May 2022",
     responsibilities: [
-      "Implementing reusable components.",
-      "Participating in large scale application.",
-      "Working on the performance of web applications.",
-      "Generating new ideas for better user experience.",
+      "Assisted in research, documentation, and testing of security systems.",
+      "Gained hands-on experience in threat intelligence & digital forensics."
     ],
   },
   {
-    job: "Course Instructor",
-    company: "Nucamp",
-    date: "2023 - Present",
+    job: "Junior Cybersecurity Analyst",
+    company: "Virtual Caim – Ahmedabad",
+    date: "June 2022 – December 2022",
     responsibilities: [
-      "Explaining and facilitating web development concepts.",
-      "Help students with their assignments and grade them weekly.",
-      "Provide support for students through their learning journey.",
+      "Conducted penetration testing & security assessments for web and network security.",
+      "Created and enforced security policies to mitigate risks.",
+      "Assisted teams in resolving security incidents and reducing threats.",
     ],
   },
   {
-    job: "Course Instructor",
-    company: "Sprints",
-    date: "2024 - Present",
+    job: "Cyber Security Consultant",
+    company: "Virtual Caim – Ahmedabad",
+    date: "January 2022 – Present",
     responsibilities: [
-      "Teaching JavaScript, React and TailwindCSS.",
-      "Participating in preparing course materials.",
-      "Helping students through their way in learning web development technologies.",
+      "Led vulnerability assessments & penetration testing for web, mobile, and network security.",
+      "Developed threat detection & incident response protocols to improve security.",
+      "Ensured compliance with industry security standards and business continuity."
     ],
   },
 ];
