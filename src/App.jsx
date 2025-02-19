@@ -1,4 +1,6 @@
 import AboutMeMain from "./components/aboutMeSection/AboutMeMain";
+import CertificateImg from "./components/certificateSection/CertificateImg";
+import CertificateMain from "./components/certificateSection/CertificateMain";
 import ContactMeMain from "./components/contactMeSection/ContactMeMain";
 import ExperienceMain from "./components/experienceSection/ExperienceMain";
 import FooterMain from "./components/footer/FooterMain";
@@ -20,8 +22,10 @@ function App() {
       <AboutMeMain />
       <SkillsMain />
       <SubSkills />
-      <ExperienceMain />
+      <ExperienceMain /><br></br>
       {/* <ProjectsMain /> */}
+      <CertificateImg />
+      <CertificateMain />
       <ContactMeMain />
       <FooterMain />
     </main>

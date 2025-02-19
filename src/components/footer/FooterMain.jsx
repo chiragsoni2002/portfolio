@@ -15,8 +15,8 @@ const FooterMain = () => {
       section: "experience",
     },
     {
-      name: "Projects",
-      section: "projects",
+      name: "Certificate",
+      section: "certificate",
     },
   ];
   return (
