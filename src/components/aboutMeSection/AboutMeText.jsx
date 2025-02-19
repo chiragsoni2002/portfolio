@@ -15,7 +15,7 @@ const AboutMeText = () => {
         frameworks. Jaydeep is seeking to join a cybersecurity team focused on
         securing complex systems.
       </p>
-      <button className="border border-orange rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center">
+      {/* <button className="border border-orange rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center">
         <Link
           spy={true}
           smooth={true}
@@ -26,7 +26,7 @@ const AboutMeText = () => {
         >
           My Projects
         </Link>
-      </button>
+      </button> */}
     </div>
   );
 };
